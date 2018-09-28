@@ -1,0 +1,124 @@
+nav {
+	background-color: #002746;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%
+}
+nav ul {
+	float: left;
+	margin: 0px;
+	padding: 0 0 0 0;
+	width: 100%;
+	list-style: none;
+}
+nav ul li {
+	display: inline;
+}
+nav ul li a {
+	float: left;
+	padding: 11px 20px;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	font-family: Tahoma;
+	outline: none;
+}
+nav li a:hover {
+	color: #6E89FF;
+}
+header {
+
+	padding: 40px 30px 0px 30px;
+}
+h1 {
+
+	font-size: 40px;
+	text-align: center;
+	color: grey;
+	font-family: tahoma;
+}
+h2{	margin: 0 0 10 0;
+	padding: 0;
+	font-size: 30px;
+	text-align: center;
+	color: grey;
+	font-family: tahoma;
+
+}
+
+
+span{
+	color:red; font-weight:bold;
+}
+.selImg{
+	margin: 0;
+	color: gray;
+	font-family: tahoma;
+	font-size: 15px;
+	text-align: center;
+	font-weight:normal;
+}
+
+#selfie {
+	width: 50%;
+	length: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#selfDescription, #hobbies {
+	line-height: 30px;
+	margin: auto;
+	padding: 40px;
+	color: gray;
+	font-family: tahoma;
+	font-size: 20px;
+}
+/* hobbies */
+#list{ overflow-x: auto;
+		list-style: none;
+		white-space: nowrap;
+		width: auto;
+	}
+.item{
+	margin-left: 20px;
+	display: inline-block;
+
+}
+/* reading */
+.reading1,.weeklyP {
+	margin: 0;
+	color: gray;
+	font-family: tahoma;
+	font-size: 20px;
+	text-align: center;
+}
+.reading2,a{
+	text-align: center;
+	color: gray;
+	font-family: tahoma;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+a:hover{
+	text-decoration: none;
+	color: #6E89FF;
+}
+.rimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*weeklyPractice*/
+.weeklyPractice{
+	margin: 0 25px 5px;
+	color: gray;
+	font-family: tahoma;
+	font-size: 25px;
+	text-align: left;
+	font-weight: 500;
+}
