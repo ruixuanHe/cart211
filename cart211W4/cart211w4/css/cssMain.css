@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin: 0;
+	pedding:0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+section{
+	position: relative;
+	background: white;
+	padding: 20px
+		
+}
+
+
+#s1{
+	background: url(../img/alex-iby-387636-unsplash.jpg) no-repeat fixed center center ;
+	background-size: cover;
+	width: 100%;
+	min-height: 70%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+hgroup {
+text-align: center;
+	color: black;
+}
+
+hgroup h2{
+	
+	font: italic;
+	font-size: 20px;
+	text-transform: capitalize;
+	color:#10A9FF;
+	font-weight: bolder;
+	
+}
+hgroup h1{
+	font-size: 50px;
+	color: antiquewhite;
+	font-weight: bolder;
+	line-height: 50px;	
+}
+
+#s2{
+	background: #00EBFF;
+	display:flex;
+	align-content: center;
+	justify-content: center;	
+}
+#s2 article{
+	margin: 20px
+	
+}
+.multi{
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+
+#s2	h1{
+	
+	font-size: 30px;
+	text-transform: uppercase;
+	color: gray;
+	
+}
