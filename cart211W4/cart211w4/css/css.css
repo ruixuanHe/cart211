@@ -1,35 +1,42 @@
 @charset "UTF-8";
 /* relative position example */
+*{	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 section{
 	
 	
 	width:200px;
 	height:200px;
-	background-color:#FFCDCE;
+	background-color:gray;
 	margin: 20px;
 	/*display: inline-block; */
 
 }
 
-.rel{
-	position: relative;
-	left: 20px;
-	height: 600px;
-	background-color: aquamarine;
-}
-
-/* ids can only be used for one element */
-
-#two{
-	
+#s2{
+	background-color: aqua;
+	display: inline-block;
 	position: absolute;
-	right: 30px;
-	top: 40px;
+	left: 20px;
+	
 }
 
-#three{
+#s22{
+	width: 100px;
+	height: 100px;
+	background-color: aquamarine;
 	
-	
-	background-color: burlywood;
+}
+
+#s4{
+	padding: 10px;
+	position: fixed;
+	right: 0px;
+	bottom: 0;
+	background-color: antiquewhite;
+	text-align: center;
 	
 }
