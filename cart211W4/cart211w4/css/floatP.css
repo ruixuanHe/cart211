@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+#d1{width: 100px;
+	height: 100px;
+	background: red;
+	float: left;
+}
+#d2{width: 200px;
+	height: 200px;
+	background-color: green;
+
+	
+}
+#d3{width: 200px;
+	height: 200px;
+	background: blue;
+	float: right;
+}
+.parent{
+	padding: 20px;
+	border: gray solid 5px;
+	text-align: center;
+	width: 400px;
+	
+}

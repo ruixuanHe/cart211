@@ -20,15 +20,26 @@ section{
 	background-color: aqua;
 	display: inline-block;
 	position: absolute;
-	left: 20px;
+	left: 150px;
+	top: 30px;
+	z-index: 2;
 	
 }
 
 #s22{
 	width: 100px;
 	height: 100px;
+	height: auto;
+	position: static;
 	background-color: aquamarine;
-	
+}
+#s222{
+	position: absolute;
+	background-color: blue;
+	color: white;
+	top: 10px;
+	left: 250px;
+	width: 100px;
 }
 
 #s4{
@@ -38,5 +49,18 @@ section{
 	bottom: 0;
 	background-color: antiquewhite;
 	text-align: center;
+	
+}
+
+#s5,#s6{
+	position: relative;
+	left: 200px;
+	
+}
+
+#s7{background-color: coral;
+	position: absolute;
+	left: 100px;
+	top:10px;
 	
 }

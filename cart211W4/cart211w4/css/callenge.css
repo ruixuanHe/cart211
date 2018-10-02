@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+}
+
+section{
+	position: relative;
+	height: 40%;
+	width: 100%;
+	background-color: antiquewhite;
+	
+}
+#s11{
+	height: 20%;
+	width: 25%;
+	background-color: sienna;
+	position: relative;
+	left: 75%;
+	bottom: 0px;
+}
+#s2{
+	background-color: #229FA6;
+}
+#s22{
+	height: 20%;
+	width: 25%;
+	background-color: seagreen;
+	position: relative;
+	left: 75%;
+	top: 80%;
+}
+#s33{
+	height: 20%;
+	width: 25%;
+	background-color: sienna;
+	position: relative;
+	left: 0%;
+	top: 80%;
+}
+article{
+	color: azure;
+	text-align: center;
+}
