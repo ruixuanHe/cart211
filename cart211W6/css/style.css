@@ -16,24 +16,34 @@ html, body {
 	background-size: cover;
 	width:100%;
 	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #s1 hgroup{
 	background: #fff;
 	width: 25%;
 	padding: 20px;
-	position: absolute;
+	
+	
+	/*position: absolute;
 	bottom: 20px;
 	right: 30px;
 	height: auto;
+	*/
 }
 #s1 h2 {
+	display: flex;
+	justify-content: center;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 300;
 	font-size: 16px;
 }
 
 #s1 h1{
+	display: flex;
+	justify-content: center;
 	font-family: 'Quicksand', sans-serif;
 	/*normal the font wight no fat no thin*/
 	font-weight: normal;
@@ -73,4 +83,29 @@ column-count: 3	;
 	bottom: 10px;
 	left: 10px;
 	height: auto;
+}
+
+#s4{
+	width: 100%;
+	min-height: 30%;
+	height: auto;
+	background: gray;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+}
+figure{
+	margin: 20px;
+	background: #C1FEBE;
+	height: auto;
+	/*width: 25%	;*/
+	flex-grow: 2;
+}
+
+.bigger{
+	flex-grow: 3;
+	
+	
+	
 }
