@@ -12,6 +12,8 @@ nav a {
 	font-family: 'Lobster', cursive;
 	text-transform: capitalize;
 	font-size: 30px;
+	color: purple;
+	
 }
 nav a:hover{
 	color: #fff;

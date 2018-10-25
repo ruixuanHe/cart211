@@ -28,7 +28,9 @@ h2{
 	justify-content: center;
 	
 }
-.s1{display: flex;
+.s1{
+	text-transform: capitalize;
+	display: flex;
 	justify-content: center;
 	text-align: center;
 	width: 100%;
@@ -36,4 +38,5 @@ h2{
 	font-size: 40px;
 	font-family: 'Lobster', cursive;
 	text-decoration: none;
+	color: purple;
 }
