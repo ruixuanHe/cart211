@@ -25,7 +25,10 @@ section{
 	flex-flow: column nowrap;
 }
 #img1{
+	padding: 40px;
 	
 	
-	
+}#img2{
+	padding: 40px;
+		
 }
