@@ -1,0 +1,192 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Bad+Script|Fredoka+One|Lobster|Press+Start+2P|Racing+Sans+One');
+html, body {
+	height: 100%;
+}
+#s1 {
+	position: relative;
+	background: url(image/5Yo11U1.jpg)no-repeat fixed center center;
+	background-size: cover;
+	width: 100%;
+	min-height: 50%;
+	height: 60%;
+	
+	
+}
+#s1 h1{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	font-family: 'Bad Script', cursive;
+	text-transform:capitalize;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+#s1 h2{
+
+	position: absolute;
+	top: 15%;
+	left: 30%;
+	margin-right: auto;
+	margin-left: auto;
+	
+	font-family: 'Press Start 2P', cursive;
+	text-transform: uppercase;
+	color: aliceblue;
+	font-size: 100px;
+}
+.dimg {
+	margin-right: 20px;
+	margin-left: 20px;
+	height: 300px;
+}
+#dimg {
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	bottom: -10%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+#s2 {
+	background: url( image/background.png)no-repeat fixed center center;
+	background-size: cover;
+	width: 100%;
+	height: 40%;
+	background-color: aliceblue;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+.darticle{
+	width: 300px;
+	height: 200px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: aliceblue;
+}
+.darticleTypo{
+	width: 300px;
+	height: 200px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+	display: flex;
+	flex-flow: column nowrap;
+	font-family: 'Racing Sans One', cursive;
+	font-weight: lighter;
+	text-align: center;		
+}
+
+#PressStart2P{padding-top: 10px;
+	font-family: 'Press Start 2P', cursive;
+}
+#Lobster{
+	font-family: 'Lobster', cursive;
+}
+#BadScript{
+	font-family: 'Bad+Script', cursive;
+}
+#Audiowide{
+	font-family: 'Audiowide', cursive;
+}
+#FredokaOne{
+	font-family: 'Fredoka+One', cursive;
+}
+#RacingSansOne{
+	font-family: 'Racing+Sans+One', cursive;
+}
+
+.darticleColor{
+	width: 300px;
+	height: 200px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+	display: flex;
+	flex-flow: column nowrap;
+	font-family: 'Racing Sans One', cursive;
+	font-weight: lighter;
+	text-align: center;
+}
+#dcolorTitle{
+	flex-basis: 20%;
+	
+}
+
+#dclor{
+	flex-basis: 80%;
+	background-color: blue;
+	display: flex;
+	flex-flow: row wrap;
+}
+#dcolor1{
+	width:50%;
+	height: 50%;
+	background-color: #D80000;
+}
+#dcolor2{width:50%;
+	height: 50%;
+	background-color: #3D2FF4;}
+#dcolor3{width:50%;
+	height: 50%;
+	background-color: #7626D7;}
+#dcolor4{width:50%;
+	height: 50%;
+	background-color: #E73E6D;}
+.darticleCenter{
+	width: 200px;
+	height: 200px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	font-family:  'Lobster', cursive;;
+	text-transform: uppercase;
+	font-size: 80px;
+	color: aliceblue;
+
+}
+
+#s3 {
+	position: relative;
+	background: url( image/maxresdefault.jpg)no-repeat fixed center center;
+	background-size: cover;
+	width: 100%;
+	min-height: 50%;
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dimg2 {
+	margin-right: 10px;
+	margin-left: 10px;
+	
+}
+#dimg2 {
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	top: -10%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+#s3Title{
+	font-family: 'Audiowide', cursive;;
+	text-transform: uppercase;
+	color: aliceblue;
+	font-size: 120px;
+}
