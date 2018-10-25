@@ -1,0 +1,35 @@
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Bad+Script|Fredoka+One|Lobster|Press+Start+2P|Racing+Sans+One');
+html,body{
+	height: 100%;
+}
+
+
+
+h1{
+	
+	align-items: center;
+	font-size: 40px;
+	font-family: 'Lobster', cursive;
+	background-color: aliceblue;
+	text-transform: capitalize;
+	display: flex;
+	justify-content: center;
+}
+h2{
+	align-items: center;
+	font-size: 80px;
+	font-family: 'Lobster', cursive;
+	background-color: aliceblue;
+	text-transform: capitalize;
+	display: flex;
+	justify-content: center;
+	
+}
+.s1{	position: relative;
+	width: 100%;
+	background-color: aliceblue;
+	font-size: 40px;
+	font-family: 'Lobster', cursive;
+}
