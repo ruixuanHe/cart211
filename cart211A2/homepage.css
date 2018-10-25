@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide|Bad+Script|Fredoka+One|Lobster|Press+Start+2P|Racing+Sans+One');
 html,body{
 	height: 100%;
+	background-color: aliceblue;
 }
 
 
@@ -27,9 +28,12 @@ h2{
 	justify-content: center;
 	
 }
-.s1{	position: relative;
+.s1{display: flex;
+	justify-content: center;
+	text-align: center;
 	width: 100%;
 	background-color: aliceblue;
 	font-size: 40px;
 	font-family: 'Lobster', cursive;
+	text-decoration: none;
 }
