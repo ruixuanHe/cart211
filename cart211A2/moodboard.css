@@ -190,3 +190,13 @@ html, body {
 	color: aliceblue;
 	font-size: 120px;
 }
+#inspirationTitle{
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	top: -17%;
+	display: flex;
+	justify-content: center;
+	font-family: 'Racing Sans One', cursive;
+	font-weight:bolder;
+}

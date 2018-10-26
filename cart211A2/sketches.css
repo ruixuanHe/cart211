@@ -1,41 +1,41 @@
 /* CSS Document */
 @import url('https://fonts.googleapis.com/css?family=Audiowide|Bad+Script|Fredoka+One|Lobster|Press+Start+2P|Racing+Sans+One');
-html,body{
+html, body {
 	height: 100%;
 	background-color: aliceblue;
 }
-h1{
-	
+h2{	
 	align-items: center;
-	font-size: 60px;
+	font-size: 80px;
+	font-family: 'Lobster', cursive;
+	background-color: aliceblue;
+	text-transform: capitalize;
+	display: flex;
+	justify-content: center;
+	
+}
+h1 {
+	align-items: center;
+	font-size: 40px;
 	font-family: 'Lobster', cursive;
 	background-color: aliceblue;
 	text-transform: capitalize;
 	display: flex;
 	justify-content: center;
 }
-section{
-	height: 70%;
-	width: 70%;
+section {
+
 	margin: 0;
-	
 	margin-left: auto;
 	margin-right: auto;
-	
 	display: flex;
 	flex-flow: column nowrap;
+	align-items: center;
 }
-section h1{
-	font-size: 30px;
-}
-#img1{
-	padding: 40px;
-	
-	
-}#img2{
-	padding: 40px;
-		
-}
-#img3{
+
+section img{
+	width: 800px;
+	height: 500px;
 	padding: 40px;
 }
+
