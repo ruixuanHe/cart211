@@ -6,7 +6,9 @@ html,body{
 	background-color: aliceblue;
 }
 
-
+a:hover{
+	color:#D9AEFF;
+}
 
 h1{
 	
