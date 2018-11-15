@@ -1,1 +1,59 @@
-<!doctype html><html><head><meta charset="UTF-8"><title>video example</title><link rel="stylesheet" href="css/video.css"></head><body>	<nav>	<a href="" class="hvr-bounce-to-right">line 1</a>	<a href=""class="hvr-bounce-to-right">line 2</a>	<a href=""class="hvr-bounce-to-right">line 3</a>	<a href=""class="hvr-bounce-to-right">line 4</a>	</nav><video autoplay loop muted poster="images/tea.jpg" id="myVid">  <source src="video/tea.mp4" type="video/mp4"></video><section id="first">  <article class="content">    <h1>Heading</h1>    <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore latine molestiae, ad mutat oblique delicatissimi pro.      Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur.</p>    <button id="myBtn" onclick="myFunction()">Pause</button>  </article></section><section id="second">  <figure id="f1">    <h1>figure 1</h1>    <figcaption>description of figure1</figcaption>  </figure>  <figure id="f2">    <h1>figure 2</h1>    <figcaption>description of figure2</figcaption>  </figure>  <figure id="f3">    <h1>figure 3</h1>    <figcaption>description of figure3</figcaption>  </figure>  <figure id="f4">    <h1>figure 4</h1>    <figcaption>description of figure4</figcaption>  </figure>	</section><div id="anim"></div>		<script>		//init the vars		var video = document.getElementById("myVid");		var btn = document.getElementById("myBtn");				function myFunction(){						if(video.paused){				 video.play();    			 btn.innerHTML = "Pause";			} else {    			video.pause();    			btn.innerHTML = "Play";  			}					}	</script></body></html>
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>video example</title>
+<link rel="stylesheet" href="css/video.css">
+</head>
+
+<body>
+<nav> <a href="" class="hvr-bounce-to-right">line 1</a> <a href=""class="hvr-bounce-to-right">line 2</a> <a href=""class="hvr-bounce-to-right">line 3</a> <a href=""class="hvr-bounce-to-right">line 4</a> </nav>
+<video autoplay loop muted poster="../cart211W8/image/road.jpg" id="myVid">
+  <source src="../cart211W8/video/road.mp4" type="video/mp4">
+</video>
+<section id="first">
+  <article class="content">
+    <h1>Heading</h1>
+    <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore latine molestiae, ad mutat oblique delicatissimi pro.
+      Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur.</p>
+    <button id="myBtn" onclick="myFunction()">Pause</button>
+  </article>
+</section>
+<section id="second">
+  <figure id="f1">
+    <h1>figure 1</h1>
+    <figcaption>description of figure1</figcaption>
+  </figure>
+  <figure id="f2">
+    <h1>figure 2</h1>
+    <figcaption>description of figure2</figcaption>
+  </figure>
+  <figure id="f3">
+    <h1>figure 3</h1>
+    <figcaption>description of figure3</figcaption>
+  </figure>
+  <figure id="f4">
+    <h1>figure 4</h1>
+    <figcaption>description of figure4</figcaption>
+  </figure>
+</section>
+<div id="anim"></div>
+<script>
+		//init the vars
+		var video = document.getElementById("myVid");
+		var btn = document.getElementById("myBtn");
+		
+		function myFunction(){
+			
+			if(video.paused){
+				 video.play();
+    			 btn.innerHTML = "Pause";
+			} else {
+    			video.pause();
+    			btn.innerHTML = "Play";
+  			}
+			
+		}
+	</script>
+</body>
+</html>
