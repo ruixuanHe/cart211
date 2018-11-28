@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Bad+Script|Fredoka+One|Lobster|Press+Start+2P|Racing+Sans+One');
+#section1{
+	background: 
+	url(image/league-of-legends-world-championships.jpg)no-repeat fixed center center;
+	background-size: cover;
+	height: 100%;
+}
+#section2{
+	background: url(image/5Yo11U1.jpg)no-repeat fixed center center;
+	background-size: cover;
+	height: 700px;
+}
+#section3{
+	background: url(image/winning.jpg) no-repeat fixed center center ;
+	background-size: cover;
+	height: 700px;
+}
+/*describe section*/
+.descripeSection{
+	background-color: #FFFFFF;
+	height: 350px;
+	display: flex;
+	flex-flow: row nowrap;
+}
+.describeP{
+	background-color: antiquewhite;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.describeP h2{
+	text-transform: capitalize;
+	font-family: 'Audiowide', cursive;
+	font-size: 80px;
+	line-height: 80px;
+}
+.describeP h3{
+	font-family: 'lobster', cursive;
+	line-height: 0px;
+}
+
+.describeP p{
+	font-family: 'Bad+Script', cursive ;
+	font-size: 15px;
+}
+.describeImg{
+	background-color: aquamarine;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.describeImg img{
+	margin: 20px;
+}
+/* global class*/
+.shortLine{
+	background: black;
+	height: 2px;
+	width: 240px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.addPadding{
+	padding: 20px;
+}
+
+.tournaments{
+	height: 100%;
+}
