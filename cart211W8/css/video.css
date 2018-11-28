@@ -28,11 +28,12 @@ body {
 	width: 100%;
 	padding: 20px;
 	transition: .3s;
+	
 }
 .content:hover {
 	background-color: rgba(17,9,200,0.53);
 }
-#bottom1 {
+#button1 {
 	width: 200px;
 	font-size: 18px;
 	padding: 10px;
@@ -45,4 +46,8 @@ body {
 #bottom1:hover {
 	background: rgba(0,0,0,1.00);
 	color: aliceblue;
+}
+#s1{
+	height: 2	00%;
+	background-color: aliceblue;
 }
