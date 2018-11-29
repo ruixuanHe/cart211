@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Bad+Script|Fredoka+One|Lobster|Press+Start+2P|Racing+Sans+One|Dancing+Script|Oswald|Cookie');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+nav{
+	z-index: 5;
+}
+html,body{
+	scroll-behavior: smooth;
+	height: 100%;
+}
+.btn {
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+.yes {
+  background-color: #FF9192 ;
+  box-shadow: 0px 5px 0px 0px #FF5D5F;
+}
+
+.yes:hover {
+  background-color: #FFA0A1;
+}
+.no {
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.no:hover {
+  background-color: #6FC6FF;
+}
+.next {
+  background-color: #3F3F3F ;
+  box-shadow: 0px 5px 0px 0px #303030;
+}
+
+.next:hover {
+  background-color: #505050;
+}
+.buttons{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+}
+.question{
+	height: 100%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.holder{
+	background: url(image/29119091208_4adef48195_k.jpg)no-repeat fixed center center;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+.yesP{font-family: 'Bad+Script', cursive ; 
+	color: white;
+	background-color: rgba(255,50,54,0.74);
+	height: 100%;
+	width: 27%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	transform: translateX(-100%);
+	transition: all 0.9s;
+	box-shadow: 1px 1px 3px rgba(43,43,43,0.82);
+	padding: 25px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.noP{font-family: 'Bad+Script', cursive ; 
+
+	color: white;
+	padding: 20px;
+	background-color: rgba(33,27,255,0.81);
+	height: 100%;
+	width: 27%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	transform: translateX(100%);
+	transition: all 0.9s;
+	box-shadow: -1px 1px 3px rgba(43,43,43,0.82);
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+h1{	
+	font-family: 'oswald', cursive;
+	font-size: 30px;
+	color: white;
+}
