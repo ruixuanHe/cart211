@@ -4,29 +4,51 @@
 <meta charset="UTF-8">
 <title>Untitled Document</title>
 <link rel="stylesheet" href="quiz2.0CSS.css">
-	<link rel="stylesheet" href="homepageCSS.css">
+<link rel="stylesheet" href="homepageCSS.css">
 </head>
 
 <body>
-<nav id="navBar">
-  <div id="logo"><img src="image/logo.png" alt="log" width="100px" ></div>
+<nav id="navBar"> <a href="homepage.html" id="logo">Esport</a>
   <ul>
     <li><a href="homepage.html">homepage</a></li>
     <li><a href="#section2">eSport</a></li>
     <li><a href="tournament.html">tournaments</a></li>
-    <li><a href="#">game</a></li>
+    <li><a href="game.html">game</a></li>
     <li><a href="quiz2.0.html">quiz</a></li>
   </ul>
 </nav>
 <section class="holder" id="holder0">
   <div class="question">
     <h1>How much time does a professional eSport player train daily?</h1>
-    <div class="buttons"> <a href="#" class="btn yes"  onClick="yes()">more than 8 hours</a> <a href="#" class="btn no"  onClick="no()">less than 8 hours</a> </div>
-    <a href="#holder1" class="btn next" onClick="next()">next</a> </div>
-  <section class="yesP" id="yes">This will obviously vary between different games, and different players, but looking at League of Legends, the most popular and successful team in North America, Team Solo Mid (TSM), practices, on average, about 10–12 hours a day. This might be a bit above average for the rest of the North American teams, but I would expect that this holds pretty close to true for most of them. If you head over to the Korean league, you see this number jump to about 12–14/day.</section>
-  <section class="noP" id="no">This will obviously vary between different games, and different players, but looking at League of Legends, the most popular and successful team in North America, Team Solo Mid (TSM), practices, on average, about 10–12 hours a day. This might be a bit above average for the rest of the North American teams, but I would expect that this holds pretty close to true for most of them. If you head over to the Korean league, you see this number jump to about 12–14/day. </section>
+    <div class="buttons"> 
+		<a href="#" class="btn yes"  onClick="yes()">More than 8 hours</a> 
+		<a href="#" class="btn no"  onClick="no()">Less than 8 hours</a>
+	</div>
+    <a href="#holder1" class="btn next" onClick="next()">Next</a> </div>
+  <section class="yesP" id="yes">Correct!!! The training time obviously vary between different games, and different players, but looking at League of Legends, the most popular and successful team in North America, Team Solo Mid (TSM), practices, on average, about 10–12 hours a day. This might be a bit above average for the rest of the North American teams. If you head over to the Korean league, you see this number jump to about 12–14/day.</section>
+  <section class="noP" id="no">Ops :/\ The training time obviously vary between different games, and different players, but looking at League of Legends, the most popular and successful team in North America, Team Solo Mid (TSM), practices, on average, about 10–12 hours a day. This might be a bit above average for the rest of the North American teams. If you head over to the Korean league, you see this number jump to about 12–14/day. </section>
 </section>
-<section class="holder" id="holder1"></section>
+<section class="holder" id="holder1">
+  <div class="question">
+    <h1>How Much Do ESports Players Make?</h1>
+    <div class="buttons"> 
+		<a href="#holder1" class="btn yes"  onClick="yes1()">More than 50K </a> 
+		<a href="#holder1" class="btn no"  onClick="no1()">Less than 50K</a> </div>
+    <a href="#holder2" class="btn next" onClick="next1()">next</a> </div>
+  <section class="yesP" id="yes1">Correct!!! Regular esports salaries vary from team to team and from player to player. The regular monthly salaries of average pro gamers can range from $1,000 to $5,000, whereas the highest paid League of Legends players can earn up to $15,000 per month apart from the money that they get from prizes. The professional gamer salary for Ember players ranges from $65,000 to $75,000, with extra bonuses that can reach up to $27,000. The player also gets benefits from streaming, sponsors, and prizes.</section>
+  <section class="noP" id="no1">Ops :/\ Regular esports salaries vary from team to team and from player to player. The regular monthly salaries of average pro gamers can range from $1,000 to $5,000, whereas the highest paid League of Legends players can earn up to $15,000 per month apart from the money that they get from prizes. The professional gamer salary for Ember players ranges from $65,000 to $75,000, with extra bonuses that can reach up to $27,000. The player also gets benefits from streaming, sponsors, and prizes.</section>
+</section>
+<section class="holder" id="holder2">
+  <div class="question">
+    <h1>What progamers do after retirement?</h1>
+    <div class="buttons"> 
+		<a href="#holder2" class="btn yes"  onClick="yes2()"> Be a couch potato</a> 
+		<a href="#holder2" class="btn no"  onClick="no2()">Be a Big couch potato</a>
+	  </div>
+    <a href="#holder0" class="btn next" onClick="next2()">Top</a> </div>
+  <section class="yesP" id="yes2">There is no answer to this question. The eSport players start different life after they retire. Although, most of them are young and only know how to play the game. Someone is still working for the tournament, for example, the Counter-Strike player Alexey become a Counter-Strike: Global Offensive analyst with SLTV. And someone becomes a steamer or bossiness man. The cs1.6 player Alexandr stands from the couch and spending eight years as a surfing instructor in Bali..</section>
+  <section class="noP" id="no2">There is no answer to this question. The eSport players start different life after they retire. Although, most of them are young and only know how to play the game. Someone is still working for the tournament, for example, the Counter-Strike player Alexey become a Counter-Strike: Global Offensive analyst with SLTV. And someone becomes a steamer or bossiness man. The cs1.6 player Alexandr stands from the couch and spending eight years as a surfing instructor in Bali. </section>
+</section>
 <script src="quiz2.0JS.js"></script>
 </body>
 </html>

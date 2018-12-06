@@ -25,12 +25,15 @@
 	margin-top:0 px;
 	margin-bottom: 0px;
 	height: 5px;
+	width: 90%;
 }
 #section1 h2{
 	font-size: 30px;
 	line-height: 30px;
 	color: rgba(255,255,255,1.00);
-	font-family: 'Racing Sans One', cursive;
+	font-family: 'open sans', cursive;
+	font-weight: 300;
+	font-style: italic;
 	text-align: center;
 	text-transform: capitalize;
 }
@@ -54,13 +57,7 @@
 	justify-content: space-around;
 	align-items: center;
 }
-#past{
-	font-family: 'Press Start 2P', cursive;
-}
-#future{
-	font-family: 'Cookie',cursive;
-	font-size: 110px;
-}
+
 .describeP{
 	background-color: #FFFBEF;
 	width: 50%;
@@ -71,20 +68,24 @@
 	align-items: center;
 }
 .describeP h2{
-	text-transform: capitalize;
-	font-family: 'Audiowide', cursive;
+	text-transform: uppercase;
+	font-family: 'oswald', cursive;
+	font-weight: 600;
 	color: black;
-	font-size: 80px;
-	line-height: 85px;
+	font-size: 75px;
+	line-height: 90px;
 }
 .describeP h3{
 	color: rgba(68,68,68,1.00);
-	font-family: 'lobster', cursive;
-	line-height: 0px;
+	font-family: 'open sans', cursive;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 5px;
 }
 
 .describeP p{
-	font-family: 'Bad+Script', cursive ;
+	font-family: 'open sans', cursive;
+	font-weight: 500;
 	font-size: 15px;
 }
 .describeImg{
@@ -114,15 +115,17 @@
 }
 /*footer*/
 .footer{
+	
 	display: flex;
 	flex-flow: row nowrap;
 	background: rgba(0,0,0,1.00);
 	height: 8%;
+	width: 100%;
 	justify-content: space-around;
 	align-items: center;
 }
 .footer h1{
-	font-family: 'Bad+Script', cursive ;
+	font-family: 'racing sans one', cursive ;
 	font-size: 20px;
 	color: white;
 	

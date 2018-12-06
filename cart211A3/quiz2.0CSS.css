@@ -30,12 +30,12 @@ html,body{
   box-shadow: 0px 1px 0px 0px;
 }
 .yes {
-  background-color: #FF9192 ;
-  box-shadow: 0px 5px 0px 0px #FF5D5F;
+  background-color: #D95355 ;
+  box-shadow: 0px 5px 0px 0px #BE2A2C;
 }
 
 .yes:hover {
-  background-color: #FFA0A1;
+  background-color: #DE6C6D;
 }
 .no {
   background-color: #55acee;
@@ -67,15 +67,16 @@ html,body{
 	align-items: center;
 }
 .holder{
-	background: url(image/29119091208_4adef48195_k.jpg)no-repeat fixed center center;
+	background: url(image/30637501437_9e48be052c_o.jpg)no-repeat fixed ;
+	background-size: cover;
 	position: relative;
 	height: 100%;
 	width: 100%;
 	overflow: hidden;
 }
-.yesP{font-family: 'Bad+Script', cursive ; 
+.yesP{font-family: 'open sans', cursive ; 
 	color: white;
-	background-color: rgba(255,50,54,0.74);
+	background-color: #D95355;
 	height: 100%;
 	width: 27%;
 	position: absolute;
@@ -90,11 +91,10 @@ html,body{
 	justify-content: center;
 	align-items: center;
 }
-.noP{font-family: 'Bad+Script', cursive ; 
-
+.noP{font-family: 'open sans', cursive ; 
 	color: white;
 	padding: 20px;
-	background-color: rgba(33,27,255,0.81);
+	background-color: rgba(85,172,238,1.00);
 	height: 100%;
 	width: 27%;
 	position: absolute;
