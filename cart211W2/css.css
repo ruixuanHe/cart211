@@ -1,74 +1,37 @@
-h1{
-  font-size: 10px;
-  font-style: italic;
-  font-family: monospace;
-  color: #5005ff;
+*{	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-h2{
-  font-size: 15px;
-  color: #4400e2;
-  margin-left: 20px;
+nav a {
+	text-decoration: none;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 10px;
+	font-family: 'Lobster', cursive;
+	text-transform: capitalize;
+	font-size: 30px;
+	color: purple;
+	
 }
-p{margin-right: 20px;
-  color: #3800bc;
-  padding: 50px;
+nav a:hover{
+	color: #fff;
+	background-color: #B2DBFF;
 }
-h2.classh{
-  color: #2c0096;
+nav{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	background-color: aliceblue;
+	
+	width: 100%;
+	height: auto;
 }
-#idh{
-  color: #1d0063;
+h1{padding: 0 30px;
+	align-content: center;
+	color: red;
+	font-size: 40px;
 }
-img{
-  width: 50%;
-  height:60%;
-}
-a:link{
-    margin: 30px;
-    padding: 20px;
-}
-a:hover{
-  margin: 30px;
-    padding: 20px;
-  color: blue;
-  text-decoration: overline;
-  background-color:#00b6d6;
-
-}
-.a1{
-  margin: auto;
-  color:#aff3ff;
-
-}
-.a2{
-    color: #8fecfc;
-}
-.a3{
-    color:#6be9ff;
-}
-.a4{
-    color:#3de2ff;
-}
-.a5{
-    color:#16dafc;
-}
-nav{margin: 50px;
-  padding: 20px;
-  background-color: #005666;
-}
-ul{
-  list-style-type: decimal;
-}
-#ulid1 {
-  list-style-type: circle;
-}
-#ulid{
-  list-style: lower-roman;
-}
-#ulid2 {
-  list-style: upper-alpha;
-
-}
-#ulid2 li{
-display: inline;
+p{	padding: 0 30px;
+	color: gray;
+	font-size: 20px;
 }

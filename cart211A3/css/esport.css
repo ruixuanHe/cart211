@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Bad+Script|Fredoka+One|Lobster|Press+Start+2P|Racing+Sans+One|Dancing+Script|Oswald|Cookie');
+/*section 1*/
+#section1{
+	background: 
+url(../image/league-of-legends-world-championships.jpg) no-repeat fixed center center;
+	background-size: cover;
+	height: 100%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+#section1 h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'oswald', cursive;
+	font-size: 80px;
+	color: rgba(255,255,255,1.00);
+	line-height: 43px;
+}
+#section1 .shortLine{
+	background-color:  white;
+	margin-top:0 px;
+	margin-bottom: 0px;
+	height: 5px;
+	width: 90%;
+}
+#section1 h2{
+	font-size: 30px;
+	line-height: 30px;
+	color: rgba(255,255,255,1.00);
+	font-family: 'open sans', cursive;
+	font-weight: 300;
+	font-style: italic;
+	text-align: center;
+	text-transform: capitalize;
+}
+/**************************/
+#section2{
+	background: url(../image/5Yo11U1.jpg) no-repeat fixed center center;
+	background-size: cover;
+	height: 100%;
+}
+#section3{
+	background: url(../image/winning.jpg) no-repeat fixed center center  ;
+	background-size: cover;
+	height: 100%;
+}
+/*describe section*/
+.descripeSection{
+	background-color: #FFFBEF;
+	height: 50%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.describeP{
+	background-color: #FFFBEF;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.describeP h2{
+	text-transform: uppercase;
+	font-family: 'oswald', cursive;
+	font-weight: 600;
+	color: black;
+	font-size: 75px;
+	line-height: 90px;
+}
+.describeP h3{
+	color: rgba(68,68,68,1.00);
+	font-family: 'open sans', cursive;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 5px;
+}
+
+.describeP p{
+	font-family: 'open sans', cursive;
+	font-weight: 500;
+	font-size: 20px;
+}
+.describeImg{
+	background-color: #FFFBEF;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.describeImg img{
+	margin: 20px;
+}
+/* global class*/
+.shortLine{
+	background: black;
+	height: 2px;
+	width: 240px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.addPadding{
+	padding: 20px;
+}
+/*footer*/
+.footer{
+	
+	display: flex;
+	flex-flow: row nowrap;
+	background: rgba(0,0,0,1.00);
+	height: 8%;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer h1{
+	font-family: 'racing sans one', cursive ;
+	font-size: 20px;
+	color: white;
+	
+}
